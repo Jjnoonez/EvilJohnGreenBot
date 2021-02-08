@@ -6,6 +6,11 @@
 import time
 import random
 
+def mood (moodlvl,moodtype):
+  #insert code here to create mood
+  MyMood = ""
+  return MyMood
+
 def funcWait():
   waitTime = [1,2,3,4]
   time.sleep(random.choice(waitTime))
